@@ -1,0 +1,10 @@
+body{
+    background-image: linear-gradient(to top,  rgb(106, 106, 106),rgb(255, 255, 255));
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.title-container{
+    color: white;
+    background-color: rgb(48, 48, 48);
+}
