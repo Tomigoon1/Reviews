@@ -5,6 +5,7 @@ import { TravelLaptopBackpackComponent } from './pages/TravelLaptopBackpack/Trav
 import { Ipad9Component } from './pages/Ipad9/Ipad9.component';
 import { TravelProComponent } from './pages/TravelPro/TravelPro.component';
 import { MonitorSceptreComponent } from './pages/monitorSceptre/monitorSceptre.component';
+import { StockTankComponent } from './pages/stockTank/stockTank.component';
 
 const routes: Routes = [
   {path:'nikeAirZoomStructure',component:NikeAirZoomStructureComponent},
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path:'ipad9',component:Ipad9Component},
   {path:'travelPro',component:TravelProComponent},
   {path:'monitrSpectre',component:MonitorSceptreComponent},
+  {path:'rubbermaidStockTank',component:StockTankComponent},
   {path:'**',component:NikeAirZoomStructureComponent},
 ];
 
