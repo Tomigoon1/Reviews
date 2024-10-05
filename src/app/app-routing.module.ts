@@ -7,6 +7,7 @@ import { TravelProComponent } from './pages/TravelPro/TravelPro.component';
 import { MonitorSceptreComponent } from './pages/monitorSceptre/monitorSceptre.component';
 import { StockTankComponent } from './pages/stockTank/stockTank.component';
 import { ToddlerBedComponent } from './pages/toddlerBed/toddlerBed.component';
+import { FoldinchairComponent } from './pages/foldinchair/foldinchair.component';
 
 const routes: Routes = [
   {path:'nikeAirZoomStructure',component:NikeAirZoomStructureComponent},
@@ -16,6 +17,7 @@ const routes: Routes = [
   {path:'monitrSpectre',component:MonitorSceptreComponent},
   {path:'rubbermaidStockTank',component:StockTankComponent},
   {path:'toddlerBed',component:ToddlerBedComponent},
+  {path:'foldingchair',component:FoldinchairComponent},
   {path:'**',component:NikeAirZoomStructureComponent},
 ];
 
