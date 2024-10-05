@@ -8,6 +8,7 @@ import { MonitorSceptreComponent } from './pages/monitorSceptre/monitorSceptre.c
 import { StockTankComponent } from './pages/stockTank/stockTank.component';
 import { ToddlerBedComponent } from './pages/toddlerBed/toddlerBed.component';
 import { FoldinchairComponent } from './pages/foldinchair/foldinchair.component';
+import { OvalTableComponent } from './pages/ovalTable/ovalTable.component';
 
 const routes: Routes = [
   {path:'nikeAirZoomStructure',component:NikeAirZoomStructureComponent},
@@ -18,6 +19,7 @@ const routes: Routes = [
   {path:'rubbermaidStockTank',component:StockTankComponent},
   {path:'toddlerBed',component:ToddlerBedComponent},
   {path:'foldingchair',component:FoldinchairComponent},
+  {path:'ovalTable',component:OvalTableComponent},
   {path:'**',component:NikeAirZoomStructureComponent},
 ];
 
