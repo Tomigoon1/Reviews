@@ -12,6 +12,6 @@ export class ToddlerBedComponent implements OnInit {
   ngOnInit() {
   }
   goToAmazon(){
-    location.href = 'https://amzn.to/3TU27ag';
+    location.href = 'https://amzn.to/3ZXCU2R';
   }
 }
